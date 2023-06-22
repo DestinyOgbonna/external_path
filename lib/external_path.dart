@@ -16,6 +16,7 @@ class ExternalPath {
   static final String DIRECTORY_DOCUMENTS = "Documents";
   static final String DIRECTORY_SCREENSHOTS = "Screenshots";
   static final String DIRECTORY_AUDIOBOOKS = "Audiobooks";
+  static final String DIRECTORY_ALLFILES = "/";
 
   static Future<List<String>> getExternalStorageDirectories() async {
     final List externalStorageDirs =
